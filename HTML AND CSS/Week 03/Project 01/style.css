@@ -1,2 +1,87 @@
 /* You can not modify anything in the HTML */
 /* You can only modify the CSS file */
+
+/* #5955B3
+#3C2F60 */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+.navbar-container{
+    display: flex;
+    height: 20vh;
+    padding: 0 5%;
+}
+.navbar-container div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.grow-list{
+    flex: 2;
+}
+.list{
+    display: flex;
+    margin-left: 70px;
+    justify-content: flex-start;
+    align-items: center;
+    height: 20vh;
+
+}
+.list-item{
+    list-style: none;
+    padding-right: 30px;
+    font-size: 20px;
+    color: rgb(181, 181, 181);
+}
+.list-item:nth-child(1){
+    color: #000;
+}
+.button-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+.nav-button {
+    background-color: #5955B3;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+}
+
+/* Hero Section  */
+.banner-container{
+    width: 40%;
+}
+.banner-container div:nth-child(2){
+    position: absolute;
+    bottom: -20%;
+    right: 0;
+}
+.heading-text{
+    padding-top: 100px;
+    padding-left: 10%;
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #3C2F60;
+}
+.heading-text span{
+    color: #5955B3;
+}
+.description{
+    padding-left: 10%;
+    padding-top: 30px;
+    color: rgb(181, 181, 181);
+    font-size: 20px;
+}
+.btn{
+    margin-left: 10%;
+    margin-top: 50px;
+}
