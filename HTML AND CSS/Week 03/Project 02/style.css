@@ -1,2 +1,113 @@
 /* You can not modify anything in the HTML */
 /* You can only modify the CSS file */
+/* #BA0CC5 */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+}
+.navbar{
+    display: flex;
+    height: 10vh;
+    padding: 0 5%;
+    background-color: #000;
+}
+.navbar div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar div img {
+    width: 70%;
+}
+.line{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    border-left: 1px solid #fff;
+    height: 70%;
+    margin-left: 30px;
+}
+.grow-list{
+    flex: 2;
+}
+.list{
+    display: flex;
+    margin-left: 70px;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10vh;
+
+}
+.list-item{
+    list-style: none;
+    padding-right: 70px;
+    font-size: 17px;
+    color: rgb(181, 181, 181);
+    font-weight: 700;
+}
+.list-item:nth-child(1)::after{
+    content: "";
+    border: 1px solid rgb(181, 181, 181);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 10px;
+
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.navbar div:nth-child(4){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.button-small {
+    background-color: #BA0CC5;
+    padding: 10px 30px;
+    font-size: 17px;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* Hero section */
+.hero{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./assets/bg.png);
+    height: 90vh;
+    background-size: cover;
+}
+.hero-heading{
+    font-size: 85px;
+    width: 70%;
+    padding-left: 15%;
+    text-align: center;
+    color: #fff;
+    padding-top: 25vh;
+}
+.hero-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.button-large{
+    background-color: #BA0CC5;
+    padding: 20px 30px;
+    font-size: 30px;
+    color: #fff;
+    border: 0;
+    border-radius: 10px; 
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
