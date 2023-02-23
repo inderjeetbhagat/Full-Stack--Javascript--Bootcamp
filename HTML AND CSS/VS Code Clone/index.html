@@ -7,11 +7,15 @@
     <link rel="stylesheet" href="style.css" />
     <title>Visual Studio Code - Code Editing</title>
     <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />
   </head>
-  <body class=" bg-[#2c2c32]">
+  <body class=" bg-[#2c2c32]" style="font-family: Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif">
     <!-- Nav Bar Starts -->
-    <nav class="lg:px-[10%]">
-      <div class="flex bg-[#2c2c32] justify-between px-9 ">
+    <nav class=" lg:flex justify-center">
+      <div class="flex  max-w-screen-xl bg-[#2c2c32] justify-between px-9 ">
         <div class="container flex text-white items-center">
           <a class="logo flex items-center px-4 py-3">
             <img
@@ -22,7 +26,7 @@
             <span class="text-xl cursor-pointer">Visual Studio Code</span>
           </a>
           <ul
-            class="hidden lg:flex flex pl-3 gap-6 text-[#9d9d9d] text-base font-medium"
+            class="hidden lg:flex flex pl-3 pr-10 gap-6 text-[#9d9d9d] text-base font-medium"
           >
             <li class="cursor-pointer">Docs</li>
             <li class="cursor-pointer">Updates</li>
@@ -104,7 +108,7 @@
     <!-- !!!!!!!!!!Learn about mx-auto !!!!!!!!!!-->
 
     <!-- Version Section Starts -->
-    <section class="version flex justify-center bg-[#25252b] h-fit py-3 px-10">
+    <section class="version lg:flex justify-center bg-[#25252b] h-fit py-3 px-10">
       <p class="text-white text-center ">
         <span class="text-[#0066b8]">Version 1.75</span> is now available! Read
         about the new features and fixes from January.
@@ -113,9 +117,11 @@
     <!-- Version Section Ends -->
 
     <!-- Hero Section Starts -->
-    <section class="hero-section lg:px-[10%] pt-10 bg-[#2c2c32] text-white lg:flex">
+   
+    <section class="hero-section flex justify-center ">
+      <div class="lg:px-[10%] pt-10 pb-5 bg-[#2c2c32] text-white max-w-screen-xl lg:flex justify-center">
       <div class="left-hero-section lg:w-[45%] text-center">
-        <h1 class="text-4xl pt-5 font-thin">
+        <h1 class="text-5xl pt-5 font-thin">
           Code editing. <br />
           <strong>Redefined.</strong>
         </h1>
@@ -155,14 +161,346 @@
           <span class="text-[#0066b8]">liscense and privacy statement.</span>
         </p>
       </div>
-      <div class="right-hero-section  lg:w-[50%] flex">
+      <div class="right-hero-section  lg:w-[53%] flex">
         <img
-          class="mx-auto w-[70%] lg:w-[95%]"
+          class="mx-auto w-[80%] lg:w-[100%]"
           src="./VS Code Clone Assets/VS Code Clone - Hero Image.png"
           alt=""
         />
       </div>
+    </div>
     </section>
+
+    <!-- Hero Section Ends  -->
+
+    <!-- Feature Section Starts-->
+    <section class="flex bg-white justify-center md:flex-nowrap gap-10   flex-wrap text-[#444]">
+      <div
+        class="text-center w-[40%] md:w-60 py-6 hover:bg-[#e3e3e3] hover:text-indigo-800"
+      >
+        <i class="text-5xl bx bx-bulb"></i>
+        <p class="text-xl mt-2">IntelliSense</p>
+      </div>
+      <div
+        class="text-center w-[40%] md:w-60 py-6 hover:bg-[#e3e3e3] hover:text-green-600"
+      >
+        <i class="text-5xl bx bx-bug"></i>
+        <p class="text-xl mt-2">Play and Debug</p>
+      </div>
+      <div class="text-center w-[40%] md:w-60 py-6 hover:bg-[#e3e3e3] hover:text-red-600">
+        <i class="text-5xl bx bx-git-branch"></i>
+        <p class="text-xl mt-2">Built-in Git</p>
+      </div>
+      <div class="text-center w-[40%] md:w-60 py-6 hover:bg-[#e3e3e3] hover:text-black">
+        <i class="text-5xl bx bx-extension"></i>
+        <p class="text-xl mt-2">Extensions</p>
+      </div>
+    </section>
+    <!-- Feature Section Ends -->
+
+    <!-- Testimonial Section Starts-->
+    <section class="flex bg-[#F5F5F5] justify-center ">
+      <div class=" max-w-screen-xl flex flex-col flex-wrap lg:flex-row p-[6rem] lg:px-[10%] lg:py-10  ">
+      <div class="testimonial-one my-5 lg:my-0 flex lg:w-[33.3%]">
+        <img class="w-[7.2rem] h-[7.2rem] pr-1 mr-5 lg:mr-0  rounded-[50%] shadow-lg lg:w-[5rem]  lg:h-[5rem]" src="./VS Code Clone Assets/VS Code Clone -  Person 3.jpg" alt="">
+        <div>
+          <p class="text-[15px] font-bold" >Una Kravets</p>
+          <p class="font-thin">@una</p>
+          <p class="font-thin text-[17px]">VS @code does so many things right. I'm constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better </p>
+        </div>
+        </div>
+      <div class="testimonial-one flex  my-5 lg:my-0  lg:w-[33.3%]">
+        <img class="w-[7.2rem] h-[7.2rem] pr-1 mr-5 rounded-[50%] lg:mr-0 shadow-lg lg:w-[5rem]  lg:h-[5rem]" src="./VS Code Clone Assets/VS Code Clone -  Person 2.jpg" alt="">
+        <div>
+          <p class="text-[15px] font-bold" >Jonathan Dunlap</p>
+          <p class="font-thin">@jadbox</p>
+          <p class="font-thin text-[17px]">VS Code will have deep remote development. You can connect to a container running a different OS and use any VS Code plugins, linting, debugging for that environment. 🔥🔥🔥 </p>
+        </div>
+      </div>
+      <div class="testimonial-one flex  my-5 lg:my-0 lg:w-[33.3%]">
+        <img class="w-[7.2rem] h-[7.2rem] lg:w-[5rem]  lg:h-[5rem] pr-1 mr-5 lg:mr-0 rounded-[50%] shadow-lg" src="./VS Code Clone Assets/VS Code Clone -  Person 1.jpg" alt="">
+        <div>
+          <p class="text-[15px] font-bold" >Pavithra Kodmad</p>
+          <p class="font-thin">@PKodmad</p>
+          <p class="font-thin text-[17px]">VS Code is my most used and favorite editor. I love being able to customize the editor - changing the layout, the icons, fonts and color scheme is so easy!</p>
+        </div>
+      </div>
+    </div>
+    
+    </section>
+    <!-- Testimonial Section Ends -->
+
+    <!-- Feature Description Section Starts -->
+<section class="feature-descripti-1  bg-white">
+  <div class=" max-w-screen-xl flex flex-col lg:px-[10%]  bg-white mx-auto ">
+    <div class="flex flex-col pt-[51px] pb-[51px] md:flex-row ">
+      
+      <img class="flex md:w-[33%] mx-auto " src="./VS Code Clone Assets/VS Code Clone -  Meet IntelliSense.svg" alt="">
+      <div class="px-3 md:w-[58%]">
+        <p class="text-[1.2rem] font-thin  md:text-[2rem]">Meet IntelliSense.</p>
+        <p class="text-[15.3px] text-[#444444] leading-8">Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules.</p>
+      </div>
+    
+    </div>
+    </div>
+  </section>
+
+<section class="feature-descripti-2  bg-[#f5f5f5]">
+  <div class=" max-w-screen-xl flex flex-col lg:px-[10%]  bg-[#f5f5f5] mx-auto ">
+    <div class="flex flex-col-reverse pt-[51px] pb-[51px] md:flex-row ">
+      
+      
+      <div class="px-3 md:w-[58%]">
+        <p class="text-[1.2rem] font-thin  md:text-[2rem]">Print statement debugging is a thing of the past.</p>
+        <p class="text-[15.3px] text-[#444444] leading-8">Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console.</p>
+      </div>
+      <img class="flex md:w-[33%] mx-auto " src="./VS Code Clone Assets/VS Code Clone -  Print statement debugging is a thing of the past.svg" alt="">
+    
+    </div>
+    </div>
+  </section>
+
+  <section class="feature-descripti-3  bg-white">
+    <div class=" max-w-screen-xl flex flex-col lg:px-[10%]  bg-white mx-auto ">
+      <div class="flex flex-col pt-[51px] pb-[51px] md:flex-row ">
+        
+        <img class="flex md:w-[33%] mx-auto " src="./VS Code Clone Assets/VS Code Clone -  Git commands built-in.svg" alt="">
+        <div class="px-3 md:w-[58%]">
+          <p class="text-[1.2rem] font-thin  md:text-[2rem]">Git commands built-in.</p>
+          <p class="text-[15.3px] text-[#444444] leading-8">Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service.</p>
+        </div>
+      
+      </div>
+      </div>
+    </section>
+  
+  <section class="feature-descripti-4  bg-[#f5f5f5]">
+    <div class=" max-w-screen-xl flex flex-col lg:px-[10%]  bg-[#f5f5f5] mx-auto ">
+      <div class="flex flex-col-reverse pt-[51px] pb-[51px] md:flex-row ">
+        
+        
+        <div class="px-3 md:w-[58%]">
+          <p class="text-[1.2rem] font-thin  md:text-[2rem]">Extensible and customizable.</p>
+          <p class="text-[15.3px] text-[#444444] leading-8">Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor. </p>
+        </div>
+        <img class="flex md:w-[33%] w-[360px] mx-auto " src="./VS Code Clone Assets/VS Code Clone -  App Logo Collection.png" alt="">
+      
+      </div>
+      </div>
+    </section>
+
+    <section class="feature-descripti-5  bg-white">
+      <div class=" max-w-screen-xl flex flex-col lg:px-[10%]  bg-white mx-auto ">
+        <div class="flex flex-col pt-[51px] pb-[51px] md:flex-row ">
+          
+          <img class="flex md:w-[33%] mx-auto " src="./VS Code Clone Assets/VS Code Clone -  Deploy with confidence and ease.svg" alt="">
+          <div class="px-3 md:w-[58%]">
+            <p class="text-[1.2rem] font-thin  md:text-[2rem]">Deploy with confidence and ease</p>
+            <p class="text-[15.3px] text-[#444444] leading-8">With Microsoft Azure you can deploy and host your React, Angular, Vue, Node, Python (and more!) sites, store and query relational and document based data, and scale with serverless computing, all with ease, all from within VS Code.</p>
+          </div>
+        
+        </div>
+        </div>
+      </section>
+<!-- Feature Description Section Ends -->
+
+<!-- Languages Section Starts -->
+<section class="bg-[#f5f5f5] ">
+  <div class=" pt-[60px] pb-[60px] max-w-screen-xl mx-auto   ">
+  <h2 class="text-[1.5rem] font-thin mx-auto flex justify-center">VS Code for</h2>
+  <div>
+    <div class="flex flex-wrap justify-items-start pt-10 mx-6 ">
+      <p class="flex w-1/2 md:w-1/4 lg:w-1/6 mb-[20px]"><img src="./VS Code Clone Assets/VS Code Clone -  Yellow JS Logo.svg" alt="" role="presentation"> JavaScript</p>
+      <p class="flex w-1/2 md:w-1/4 lg:w-1/6 mb-[20px]"><img src="./VS Code Clone Assets/VS Code Clone -  Python.svg" alt="" role="presentation"> Python</p>
+      <p class="flex w-1/2 md:w-1/4 lg:w-1/6 mb-[20px]"><img src="./VS Code Clone Assets/VS Code Clone -  Jenkins.svg" alt="" role="presentation"> Java</p>
+      <p class="flex w-1/2 md:w-1/4 lg:w-1/6 mb-[20px]"><img src="./VS Code Clone Assets/VS Code Clone -  Blue Down Arrow.svg" alt="" role="presentation"> Markdown</p>
+      <p class="flex w-1/2 md:w-1/4 lg:w-1/6 mb-[20px]"><img src="./VS Code Clone Assets/VS Code Clone -  TS Logo.svg" alt="" role="presentation"> TypeScript</p>
+      <p class="flex w-1/2 md:w-1/4 lg:w-1/6 mb-[20px]"><img src="./VS Code Clone Assets/VS Code Clone -  C++ Logo.svg" alt="" role="presentation"> C/C++</p>
+      <p class="flex w-1/2 md:w-1/4 lg:w-1/6 mb-[20px]"><img src="./VS Code Clone Assets/VS Code Clone -  Bracket Icon.svg" alt="" role="presentation">JSON</p>
+      <p class="flex w-1/2 md:w-1/4 lg:w-1/6 mb-[20px]"><img src="./VS Code Clone Assets/VS Code Clone - Arrow Dash.svg" alt="" role="presentation">Powershell</p>
+      <p class="flex w-1/2 md:w-1/4 lg:w-1/6 mb-[20px]"><img src="./VS Code Clone Assets/VS Code Clone - Code Arrow.svg" alt="" role="presentation">HTML/CSS</p>
+      <p class="flex w-1/2 md:w-1/4 lg:w-1/6 mb-[20px]"><img src="./VS Code Clone Assets/VS Code Clone -  C Sharp.svg" alt="" role="presentation">C#</p>
+      <p class="flex w-1/2 md:w-1/4 lg:w-1/6 mb-[20px]"><img src="./VS Code Clone Assets/VS Code Clone -  Elephant.svg" alt="" role="presentation">PHP</p>
+      <p class="flex w-1/2 md:w-1/4 lg:w-1/6 mb-[20px]"><img src="./VS Code Clone Assets/VS Code Clone -  Exclamatory Icon.svg" alt="" role="presentation">YAML</p>
+    </div>
+    <p class="text-[#0066b8] justify-center flex
+    ">and many more languages on the Marketplace...</p>
+
+    <button class="bg-[#0066b8] text-[20px] mx-auto flex text-white my-[40px] font-semibold py-[15px] px-[35px] ">Get Started Now</button>
+  </div>
+</div>
+</section>
+<!-- Language Section Ends -->
+
+<!-- Download Section Starts -->
+<section class="download section bg-white ">
+  
+  <div class="max-w-screen-xl mx-auto bg-white flex flex-col justify-center py-[51px] sm:flex-wrap sm:flex-row ">
+    <div class="flex flex-col sm:w-[50%] lg:w-[33.3%]" >
+      <img class="h-[100px] w-[100px] flex mx-auto" src="./VS Code Clone Assets/VS Code Clone -  Windows Logo.png" alt="">
+      <button class=" mx-auto w-[240px] bg-[#0066b8] py-2 my-4 text-white"><span class="text-[1.3rem] relative"><img class="h-[18px] absolute left-[-25px] top-[5px]" src="./VS Code Clone Assets/VS Code Clone -  White Download Logo.svg" alt=""> Windows <br> </span> <span class="text-[0.8rem]">Windows 8, 10, 11</span></button>
+      <table class="flex justify-center
+      ">
+        <tbody>
+          <tr>
+            <td class="text-[#444444] font-medium flex justify-center mr-1">User Installer</td>
+            <td><a href="" class="bg-[#0066b8] text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">x64</a></td>
+            <td><a href="" class="bg-[#0066b8] text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">x86</a></td>
+            <td><a href="" class="bg-[#0066b8] text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">Arm64</a></td>
+          </tr>
+          <tr>
+            <td class="text-[#444444] font-medium flex justify-center mr-1">System Installer</td>
+            <td><a href="" class="bg-[#0066b8] text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">x64</a></td>
+            <td><a href="" class="bg-[#0066b8] text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">x86</a></td>
+            <td><a href="" class="bg-[#0066b8] text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">Arm64</a></td>
+          </tr>
+          <tr>
+            <td class="text-[#444444] font-medium flex justify-center mr-1" >.zip</td>
+            <td><a href="" class="bg-[#0066b8] text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">x64</a></td>
+            <td><a href="" class="bg-[#0066b8] text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">x86</a></td>
+            <td><a href="" class="bg-[#0066b8] text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">Arm64</a></td>
+          </tr>
+          <tr class="
+          ">
+            <td class="text-[#444444] pt-2 font-medium flex justify-center mr-1">CLI</td>
+            <td><a href="" class="bg-[#0066b8] mt-2 text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">x64</a></td>
+            <td><a href="" class="bg-[#0066b8] mt-2 text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">x86</a></td>
+            <td><a href="" class="bg-[#0066b8] mt-2 text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">Arm64</a></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+
+    <div class="flex flex-col sm:w-[50%] mt-4 sm:mt-0 lg:w-[33.3%]" >
+      <img class="h-[100px] w-[100px] flex mx-auto  " src="./VS Code Clone Assets/VS Code Clone -  Penguin.png" alt="">
+      <div class="flex flex-wrap justify-center gap-1
+          ">
+      <button class="w-[147px] bg-[#0066b8] py-[10px] my-4 text-white"><span class="text-[1.3rem] relative"><img class="h-[18px] absolute left-[-25px] top-[5px]" src="./VS Code Clone Assets/VS Code Clone -  White Download Logo.svg" alt=""> .deb <br> </span> <span class="text-[0.8rem]">Debian, Ubuntu</span></button>
+
+   
+
+      <button class="w-[147px] bg-[#0066b8] py-[10px] my-4 text-white"><span class="text-[1.3rem] relative"><img class="h-[18px] absolute left-[-25px] top-[5px]" src="./VS Code Clone Assets/VS Code Clone -  White Download Logo.svg" alt=""> .rpm <br> </span> <span class="text-[0.8rem]">Red Hat, Fedora, SUSE</span></button>
+      <table class="flex justify-center w-[100%]
+      ">
+    </div>
+        <tbody>
+          <tr>
+            <td class="text-[#444444] font-medium flex justify-center mr-1">.deb</td>
+            <td><a href="" class="bg-[#0066b8] text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">x64</a></td>
+            <td><a href="" class="bg-[#0066b8] text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">x86</a></td>
+            <td><a href="" class="bg-[#0066b8] text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">Arm64</a></td>
+          </tr>
+          <tr>
+            <td class="text-[#444444] font-medium flex justify-center mr-1">.rpm</td>
+            <td><a href="" class="bg-[#0066b8] text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">x64</a></td>
+            <td><a href="" class="bg-[#0066b8] text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">x86</a></td>
+            <td><a href="" class="bg-[#0066b8] text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">Arm64</a></td>
+          </tr>
+          <tr>
+            <td class="text-[#444444] font-medium flex justify-center mr-1" >..tar.gz</td>
+            <td><a href="" class="bg-[#0066b8] text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">x64</a></td>
+            <td><a href="" class="bg-[#0066b8] text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">x86</a></td>
+            <td><a href="" class="bg-[#0066b8] text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">Arm64</a></td>
+          </tr>
+          <tr class="">
+            <td class="text-[#444444]  font-medium flex justify-center mr-1">Snap</td>
+            <td colspan="2" ><a href="" class="bg-[#0066b8] mt-2 text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">Sanp Store</a></td>
+           
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+</div>
+    <div class="flex flex-col  lg:w-[33%]" >
+      <img class="h-[100px] w-[100px] flex mx-auto mt-4" src="./VS Code Clone Assets/apple-logo.svg" alt="">
+      <button class=" mx-auto w-[240px] bg-[#0066b8] py-2 my-4 text-white"><span class="text-[1.3rem] relative"><img class="h-[18px] absolute left-[-25px] top-[5px]" src="./VS Code Clone Assets/VS Code Clone -  White Download Logo.svg" alt=""> Mac<br> </span> <span class="text-[0.8rem]">macOS 10.11+</span></button>
+      <table class="flex justify-center
+      ">
+        <tbody>
+          <tr>
+            <td class="text-[#444444] pt-2 font-medium flex justify-center mr-1">.zip</td>
+            <td><a href="" class="bg-[#0066b8] text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">Intel Chip</a></td>
+            <td><a href="" class="bg-[#0066b8] text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">Apple silicon</a></td>
+            <td><a href="" class="bg-[#0066b8] text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">Universal</a></td>
+          </tr>
+          <tr>
+            <td class="text-[#444444]pt-2 font-medium flex justify-center mr-1">CLI</td>
+            <td><a href="" class="bg-[#0066b8] text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">Intel Chip</a></td>
+            <td><a href="" class="bg-[#0066b8] text-white rounded-sm inline-block px-[3px] text-[12px] cursor-pointer">Apple silicon</a></td>
+            
+          </tr>
+         
+          
+
+        </tbody>
+      </table>
+    
+
+</div>
+  </div>
+ 
+</div>
+</section>
+<!-- Download Section Ends -->
+
+<!-- License Section Starts -->
+<section class="bg-[#f5f5f5]">
+  <div class="max-w-screen-xl mx-auto  ">
+  <div class="lg:flex ">
+    <div class="flex justify-center lg:w-[50%] py-[3rem]">
+      <div class="text-[#444]  ">
+        <h2 class="font-semibold text-[1.1rem]">Want new features sooner?</h2>
+        <p>Get the <span class="text-blue-600">Insiders build</span> instead</span></p>
+      </div>
+    </div>
+    <div class="flex justify-center lg:w-[50%] py-[3rem]">
+      <div class="text-[#444]  ">
+        <h2 class="font-semibold text-[1.1rem]">Use <span class="text-blue-600">vscode.dev</span> for quick edits online!</h2>
+        <p class="flex justify-center" >GitHub, Azure Reos, and local files.</p>
+      </div>
+    </div>
+  </div>
+  <div class="flex max-w-screen-xl mx-auto ">
+  <div class="flex flex-col w-[75%] lg:w-[50%] justify-center py-10 TEXT-[#6C6C6C] mx-auto text-center ">
+    <h2 class="flex mx-auto text-[15px] mb-3 ">LICENSE AND PRIVACY TERMS</h2>
+    <p class="text-[15px] leading-10"> By downloading and using Visual Studio Code, you agree to the license terms and privacy statement. VS Code automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not to have this data sent please go see How to Disable Crash Reporting to learn how to disable it.</p>
+  </div>
+</div>
+</div>
+
+</section>
+<!-- License Section Ends -->
+
+<!-- Footer Starts -->
+<footer class="bg-[#333]">
+  <div class="max-w-screen-xl mx-auto ">
+    <div class="py-5 px-4 flex flex-col gap-4 lg:flex-row lg: justify-between">
+      <ul class="text-white flex gap-7">
+        <li>Hello from Seattle.</li>
+        <li> Follow @code</li>
+        <li class="h-fit flex"> 
+          <span class="flex bg-white font-semibold rounded-sm px-2 text-[#333]">
+            <img class="w-[14px] mr-1 " src="./VS Code Clone Assets/github-icon-small.svg" alt=""> Star</span> 
+        <span class="bg-white rounded-sm ml-2 px-2 font-semibold text-[#333]">142,938</span></li>
+      </ul>
+      <ul class="text-white flex gap-7">
+        <li>Support</li>
+        <li> Privacy</li>
+        <li> Terms of Use</li>
+        <li> License</li>
+        <li class=" flex"> 
+          <span><img class="h-[20px]" src="./VS Code Clone Assets/microsoft-logo.png" alt=""> 	&#169; 2023 Microsoft</span>
+          </li>
+      </ul>
+    </div>
+  </div>
+
+</footer>
+
+<!-- Footer Ends -->
 
     <script>
       const btn = document.querySelector(".mobile-menu-button");
