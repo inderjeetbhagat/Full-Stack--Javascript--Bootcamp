@@ -116,3 +116,38 @@ document.querySelector(".userMessage").setAttribute("placeholder","Hello World")
 ![Output Image](./Output%20Images/Assignment%203%20-%20Task%201.png)
 
 ---
+
+# _DOM Assignment 4_
+
+
+##  Solution
+
+``` js
+const div = document.querySelectorAll(".clash-card__unit-stats");
+const stats = document.querySelectorAll(".stat");
+const statvalue = document.querySelectorAll(".stat-value");
+var colors = ["yellow", "pink", "yellow","green","blue"];
+for(var y =0; y<5; y++)
+    {
+        div[y].style.backgroundColor = colors[y];
+        div[y].style.color = "#fff";
+      
+    }
+for(var y =0; y<15; y++)
+    {
+        
+        stats[y].style.color = "#fff";
+        statvalue[y].style.color = "#fff";
+    }
+
+const archer = document.querySelector(".clash-card__level--archer");
+archer.nextElementSibling.innerText = "The Archer";
+const goblin = document.querySelector(".clash-card__level--goblin");
+goblin.nextElementSibling.innerText = "The Goblin";
+
+```
+### _After Update Fianl Output_
+![Output Image](./Output%20Images/Assignment%204.png)
+
+---
+
