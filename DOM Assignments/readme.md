@@ -98,3 +98,21 @@ for(var i = 0; i<4; i++){
 ![Output Image](./Output%20Images/Assignment%202%20-%20Task%202.png)
 
 ---
+
+# _DOM Assignment 3_
+
+
+## Task 1 Solution
+
+``` js
+document.querySelectorAll(".enterName").setAttribute("placeholder","FSJS 2.0");
+document.querySelector(".enterMail").setAttribute("placeholder","fsjs@ineuron.ai");
+document.querySelector(".enterMessage").setAttribute("placeholder","Hello World");
+document.querySelector(".userName").setAttribute("placeholder","FSJS 2.0");
+document.querySelector(".userMessage").setAttribute("placeholder","Hello World");
+
+```
+### _After Update Fianl Output_
+![Output Image](./Output%20Images/Assignment%203%20-%20Task%201.png)
+
+---
