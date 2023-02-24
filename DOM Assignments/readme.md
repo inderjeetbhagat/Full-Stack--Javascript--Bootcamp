@@ -280,3 +280,29 @@ document.querySelector(".navbar-collapse").setAttribute("class", "navbar-collaps
 ![Output Image](./Output%20Images/Assignment%208%20-%20Task%203.png)
 
 ---
+
+# _DOM Assignment 9_
+
+
+## Task 1  Solution
+
+``` js
+const title = document.querySelectorAll(".title");
+title[1].style.color = "red";
+
+```
+### _After Update Fianl Output_
+![Output Image](./Output%20Images/Assignment%209%20-%20Task%201.png)
+
+---
+## Task 2  Solution
+
+``` js
+document.querySelector(".add-to-cart").style.backgroundColor = "red";
+
+
+```
+### _After Update Fianl Output_
+![Output Image](./Output%20Images/Assignment%209%20-%20Task%202.png)
+
+---
