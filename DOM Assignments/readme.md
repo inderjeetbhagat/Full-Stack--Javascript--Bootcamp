@@ -246,3 +246,37 @@ document.querySelector(".main__form-input").removeAttribute("disabled");
 ![Output Image](./Output%20Images/Assignment%207%20-%20Task%202.png)
 
 ---
+
+# _DOM Assignment 8_
+
+
+## Task 1  Solution
+
+``` js
+document.querySelector(".new").style.overflow = "scroll";
+
+```
+### _After Update Fianl Output_
+![Output Image](./Output%20Images/Assignment%208%20-%20Task%201.png)
+
+---
+## Task 2  Solution
+
+``` js
+document.querySelector("body").style.backgroundImage = "none";
+
+```
+### _After Update Fianl Output_
+![Output Image](./Output%20Images/Assignment%208%20-%20Task%202.png)
+
+---
+## Task 3  Solution
+
+``` js
+document.querySelector(".navbar-collapse").setAttribute("class", "navbar-collapse");
+
+```
+### _After Update Fianl Output_
+![Output Image](./Output%20Images/Assignment%208%20-%20Task%203.png)
+
+---
