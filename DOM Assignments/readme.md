@@ -151,3 +151,31 @@ goblin.nextElementSibling.innerText = "The Goblin";
 
 ---
 
+# _DOM Assignment 4_
+
+
+##  Solution
+
+``` js
+const btn = document.querySelector(".btn");
+const div = btn.closest("div");
+const clone = btn.cloneNode(true);
+div.append(clone);
+clone.innerText = "Pro Subscription";
+const text = document.querySelector(".text-r");
+const listDiv =text.nextElementSibling;
+const seventh = document.createElement("a");
+seventh.innerText= "Chinese (7)";
+listDiv.append(seventh);
+
+const gallery = document.querySelector(".recipe-gallery");
+const card = document.querySelector(".card");
+const clonee = card.cloneNode(true);
+clonee.innerText="Add Sixth Card";
+gallery.append(clonee);
+```
+### _After Update Fianl Output_
+![Output Image](./Output%20Images/Assignment%205.png)
+
+---
+
