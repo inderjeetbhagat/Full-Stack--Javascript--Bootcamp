@@ -17,7 +17,8 @@ const container = document.querySelector(".container");
 
 container.addEventListener("click", (e) => {
     let circle = document.createElement("div");
-    circle.classList.add("circle");
+    circle.classList.add("circles");
+    // circle.append("circle");
     circle.style.top = `${e.clientY - 40}px`;
     circle.style.left = `${e.clientX - 40}px`;
     circle.style.backgroundColor = `${colors[Math.floor(Math.random() * 12)]}`;
