@@ -151,7 +151,7 @@ goblin.nextElementSibling.innerText = "The Goblin";
 
 ---
 
-# _DOM Assignment 4_
+# _DOM Assignment 5_
 
 
 ##  Solution
@@ -178,4 +178,71 @@ gallery.append(clonee);
 ![Output Image](./Output%20Images/Assignment%205.png)
 
 ---
+# _DOM Assignment 6_
 
+
+## Task 1  Solution
+
+``` js
+const logo = document.querySelector(".logo");
+logo.setAttribute("src","https://ineuron.ai/images/ineuron-logo.png");
+
+
+```
+### _After Update Fianl Output_
+![Output Image](./Output%20Images/Assignment%206%20-%20Task%201.png)
+
+---
+## Task 1  Solution
+
+``` js
+
+price.children[0].innerText ="$10";
+const facebook = document.querySelector(".fa-square-facebook");
+const clone = facebook.cloneNode(true);
+clone.setAttribute("class","fa-brands fa-linkedin");
+const footer = document.querySelector(".footer_social");
+footer.append(clone);
+
+```
+### _After Update Fianl Output_
+![Output Image](./Output%20Images/Assignment%206%20-%20Task%202.png)
+
+---
+
+# _DOM Assignment 7_
+
+
+## Task 1  Solution
+
+``` js
+const box = document.querySelector(".main__languages");
+for(var i = 2; i<12; i++){
+    if(i%2 == 1){
+        box.children[i].style.display = "none";
+    }
+}
+
+```
+### _After Update Fianl Output_
+![Output Image](./Output%20Images/Assignment%207%20-%20Task%201.png)
+
+---
+## Task 2  Solution
+
+``` js
+const box = document.querySelector(".main__languages");
+for(var i = 2; i<12; i++){
+    if(i%2 == 1){
+        box.children[i].style.display = "none";
+    }
+}
+
+document.querySelector(".main__form-btn").removeAttribute("disabled");
+
+document.querySelector(".main__form-input").removeAttribute("disabled");
+```
+### _After Update Fianl Output_
+![Output Image](./Output%20Images/Assignment%207%20-%20Task%202.png)
+
+---
